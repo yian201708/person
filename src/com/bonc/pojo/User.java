@@ -10,6 +10,7 @@ public class User {
     private boolean hasFriend;
     private Integer height;
     private String loverName;
+    private Integer weight;
 
 
 
