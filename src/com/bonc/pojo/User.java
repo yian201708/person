@@ -5,4 +5,5 @@ public class User {
     private String address;
     private String name;
     private String hobby;
+    private String hair;
 }
