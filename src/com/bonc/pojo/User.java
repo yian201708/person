@@ -7,4 +7,5 @@ public class User {
     private String name;
     private String hobby;
     private String hair;
+    private boolean hasFriend;
 }
