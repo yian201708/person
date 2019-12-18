@@ -8,6 +8,7 @@ public class User {
     private String hobby;
     private String hair;
     private boolean hasFriend;
+    private Integer height;
     private String loverName;
 
 }
