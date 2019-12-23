@@ -11,7 +11,22 @@ public class User {
     private Integer height;
     private String loverName;
     private Integer weight;
+    private String color;
 
-
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "age=" + age +
+                ", address='" + address + '\'' +
+                ", salary=" + salary +
+                ", name='" + name + '\'' +
+                ", hobby='" + hobby + '\'' +
+                ", hair='" + hair + '\'' +
+                ", hasFriend=" + hasFriend +
+                ", height=" + height +
+                ", loverName='" + loverName + '\'' +
+                ", weight=" + weight +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
